@@ -1,0 +1,67 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://img.freepik.com/free-vector/hand-drawn-back-school-background_23-2149464866.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1725667200&semt=ais_hybrid);
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 800px;
+    margin: 40px auto;
+    background-color:rgb(250, 244, 244);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 25 25 10px rgba(50, 25, 50, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: black;
+  }
+  
+  #resume h2 {
+    border-bottom: 2px solid #acc9e9;
+    padding-bottom: 10px;
+    color: #91a4b8;
+  }
+  
+  #resume p {
+    margin: 10px 0;
+  }
+  
+  .editable {
+    display: inline-block;
+    padding: 4px;
+    border: 1px dashed transparent;
+    cursor: pointer;
+    transition: border 0.2s ease;
+  }
+  
+  .editable:hover {
+    border: 1px dashed #bd8f5b;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #9ebee0;
+    color: rgb(43, 39, 39);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(140, 235, 140);
+  }
+  
+  input {
+    border: 1px solid #413d3d;
+    padding: 4px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+  }
